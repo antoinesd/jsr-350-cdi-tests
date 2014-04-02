@@ -7,14 +7,14 @@ import javax.enterprise.util.AnnotationLiteral;
  */
 public class HasLiteral extends AnnotationLiteral<Has> implements Has {
 
-    public HasLiteral(Capability... caps) {
+    public HasLiteral(Capability caps) {
         this.caps = caps;
     }
 
-    private Capability[] caps;
+    private Capability caps;
     
     @Override
-    public Capability[] value() {
+    public Capability value() {
         return caps;
     }
 }

@@ -8,15 +8,15 @@ import javax.state.Capability;
  */
 public class HasCapabilityLiteral extends AnnotationLiteral<HasCapability> implements HasCapability {
 
-    public HasCapabilityLiteral(Class<? extends Capability>... caps) {
+    public HasCapabilityLiteral(Class<? extends Capability> caps) {
         this.caps = caps;
     }
 
-    private Class<? extends Capability>[] caps;
+    private Class<? extends Capability> caps;
 
 
     @Override
-    public Class<? extends Capability>[] value() {
+    public Class<? extends Capability> value() {
         return caps;
     }
 }

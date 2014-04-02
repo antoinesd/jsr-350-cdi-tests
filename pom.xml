@@ -17,7 +17,9 @@
 
 		<cdi-1.version>1.0-SP4</cdi-1.version>
 		<cdi-1-1.version>1.1</cdi-1-1.version>
-		
+
+		<deltaspike.version>0.6</deltaspike.version>
+
 		<javax.inject.version>1</javax.inject.version>
 		
 		<maven-surefire-plugin.version>2.12.4</maven-surefire-plugin.version>
@@ -93,6 +95,13 @@
 				<groupId>javax.enterprise</groupId>
 				<artifactId>cdi-api</artifactId>
 				<version>${cdi.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>org.apache.deltaspike.core</groupId>
+				<artifactId>deltaspike-core-api</artifactId>
+				<version>${deltaspike.version}</version>
+				<scope>compile</scope>
 			</dependency>
 
 			<dependency>
@@ -249,6 +258,12 @@
 			<artifactId>cdi-api</artifactId>
 			<scope>provided</scope>
 		</dependency>
+		
+		<dependency>
+			<groupId>org.apache.deltaspike.core</groupId>
+			<artifactId>deltaspike-core-api</artifactId>
+		</dependency>
+
 
 		<dependency>
 			<groupId>junit</groupId>

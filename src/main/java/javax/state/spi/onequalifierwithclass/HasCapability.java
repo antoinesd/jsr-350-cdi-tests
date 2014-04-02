@@ -20,6 +20,6 @@ import javax.inject.Qualifier;
 @Documented
 public @interface HasCapability {
 
-    Class<? extends javax.state.Capability>[] value();
+    Class<? extends javax.state.Capability> value();
 
 }

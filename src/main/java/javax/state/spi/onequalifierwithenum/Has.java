@@ -20,7 +20,7 @@ import javax.inject.Qualifier;
 @Documented
 public @interface Has {
 
-    Capability[] value();
+    Capability value();
 
     static public enum Capability {
         DurableStorageEnum, XATransactionEnum, WhatEverEnum

@@ -3,5 +3,7 @@ package javax.state.spi;
 /**
  * @author Antoine Sabot-Durand
  */
-public class Provider {
+public abstract class Provider {
+    
+    public abstract String getName();
 }
