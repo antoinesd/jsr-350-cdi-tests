@@ -47,8 +47,8 @@
 		<shrinkwrap-resolver.version>2.0.2</shrinkwrap-resolver.version>
 		
 
-		<!-- OpenWebBeans version in TomEE 1.5.1 -->
-		<owb.version>1.1.7</owb.version>
+		<!-- OpenWebBeans version in TomEE 1.6.0 -->
+		<owb.version>1.2.1</owb.version>
 		<slf4j-simple.version>1.6.4</slf4j-simple.version>
 
 		<!-- Geronimo specs for OpenWebBeans Test -->
